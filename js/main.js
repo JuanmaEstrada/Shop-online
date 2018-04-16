@@ -19,20 +19,17 @@ var html="";
 productShop={product0, product1, product2, product3};
 for(k in productShop){
 	 html+=  
-	'<section class=" top container ">'+
-		'<div class="row">'+
-			'<div class="col-md-9 mt-4 mb-4 ">'+
+	
 				'<div class="row">'+
-					'<div class="col-md-3">'+
+					'<div class="col-md-2">'+
 						'<img class ="photo1 img-fluid" src='+productShop[k].photo+'>'+
 						'<h4>'+productShop[k].name+'</h4>'+
 						'<p>'+productShop[k].description+'</p>'+
 						'<h5>'+productShop[k].price+'</h5>'+
-						'<button class="btn btn-primary"> Comprar</button>'+
+						'<button class="btn btn-primary mb-4"> Comprar</button>'+
 					'</div>'+
-				'</div>'+
-			'</div>'+
-		'</div>'
+				'</div>'
+		
 			
 }
 
